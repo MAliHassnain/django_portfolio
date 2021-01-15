@@ -1,25 +1,25 @@
 # Steps to setups applications
 
-### Restore Packages
+#### Restore Packages
 > pip install -r requirements.txt
 
-### Add New packages to requirements.txt
+#### Add New packages to requirements.txt
 > pip freeze > requirements.txt
 
-### Make Migrations of Blog
+#### Make Migrations of Blog
 > python manage.py makemigrations blog
 
-### Make Migrations of Projects
+#### Make Migrations of Projects
 > python manage.py makemigrations projects
 
-### Run Migrations
+#### Run Migrations
 > python manage.py migrate
 
-### Add Super user
+#### Add Super user
 > python manage.py createsuperuser
 follow the steps
 
-### Run Application
+#### Run Application
 > python manage.py runserver  
 
 
