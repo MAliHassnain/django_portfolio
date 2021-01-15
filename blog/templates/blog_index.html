@@ -4,7 +4,7 @@
 <div class="col-md-8 offset-md-2">
     <hr>
     {% for post in posts %}
-    <img class="card-img-top" src="{% static post.image %}">
+    <img class="blog-img" src="{% static post.image %}">
     <h2><a href="{% url 'blog_detail' post.pk%}">{{ post.title }}</a></h2>
 
     <small>
