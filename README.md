@@ -4,22 +4,22 @@
 > pip install -r requirements.txt
 
 ### Add New packages to requirements.txt
-pip freeze > requirements.txt
+> pip freeze > requirements.txt
 
 ### Make Migrations of Blog
-python manage.py makemigrations blog
+> python manage.py makemigrations blog
 
 ### Make Migrations of Projects
-python manage.py makemigrations projects
+> python manage.py makemigrations projects
 
 ### Run Migrations
-python manage.py migrate
+> python manage.py migrate
 
 ### Add Super user
-python manage.py createsuperuser
+> python manage.py createsuperuser
 follow the steps
 
 ### Run Application
-python manage.py runserver  
+> python manage.py runserver  
 
 
