@@ -1,0 +1,6 @@
+venv/
+blog/__pycache__/
+blog/migrations/
+projects/__pycache__/
+projects/migrations/
+personal_portfolio/__pycache__/
