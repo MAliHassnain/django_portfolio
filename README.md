@@ -1,7 +1,7 @@
 # Steps to setups applications
 
 ### Restore Packages
-pip install -r requirements.txt
+> pip install -r requirements.txt
 
 ### Add New packages to requirements.txt
 pip freeze > requirements.txt
